@@ -1,0 +1,36 @@
+{
+  "name": "build-ethereum-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./api",
+    "dev-peer": "nodemon ./api --peer",
+    "start": "node ./api",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Generic35/BuildEthereumFromScratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Generic35/BuildEthereumFromScratch/issues"
+  },
+  "homepage": "https://github.com/Generic35/BuildEthereumFromScratch#readme",
+  "dependencies": {
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "js-sha3": "^0.8.0",
+    "nodemon": "^2.0.14",
+    "pubnub": "^4.33.1",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
